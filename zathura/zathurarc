@@ -1,0 +1,69 @@
+#
+#
+# General Settings
+#
+set selection-clipboard clipboard
+set recolor true
+set adjust-open width
+set n-completion-items 5
+set statusbar-v-padding 30
+set statusbar-h-padding 30
+set font "Iosevka normal 10"
+set page-padding 5
+set statusbar-basename true
+set statusbar-home-tilde true
+#set guioptions none
+
+
+#
+# Shortcuts
+#
+#
+map <C-i> recolor
+
+
+#
+# Color theme
+#
+
+set notification-error-bg       "#FF468E" # Red
+set notification-error-fg       "#ffffff" # Foreground
+set notification-warning-bg     "#FF9E64" # Orange
+set notification-warning-fg     "#23acc4a3" # Selection
+set notification-bg             "#ffffffa3" # Background
+set notification-fg             "#ffffff" # Foreground
+
+set completion-bg               "#ffffffa3" # Background
+set completion-fg               "#91b8db" # Comment
+set completion-group-bg         "#ffffffa3" # Background
+set completion-group-fg         "#91b8db" # Comment
+set completion-highlight-bg     "#23acc4a3" # Selection
+set completion-highlight-fg     "#ffffff" # Foreground
+
+set index-bg                    "#ffffffa3" # Background
+set index-fg                    "#ffffff" # Foreground
+set index-active-bg             "#23acc4a3" # Current Line
+set index-active-fg             "#ffffff" # Foreground
+
+set inputbar-bg                 "#ffffffa3" # Background
+set inputbar-fg                 "#ffffff" # Foreground
+set statusbar-bg                "#ffffffa3" # Background
+set statusbar-fg                "#ffffff" # Foreground
+
+set highlight-color             "#ffae57" # Orange
+set highlight-active-color      "#ff79c6" # Pink
+
+set default-bg                  "#ffffffa3" # Background
+set default-fg                  "#ffffff" # Foreground
+
+set render-loading              true
+set render-loading-fg           "#ffffffa3" # Background
+set render-loading-bg           "#ffffff" # Foreground
+
+
+#
+# Recolor mode settings
+#
+
+set recolor-lightcolor          "#ffffffa3" # Background
+set recolor-darkcolor           "#ffffff" # Foreground

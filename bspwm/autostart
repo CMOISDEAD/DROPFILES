@@ -1,0 +1,11 @@
+#!/bin/sh
+
+killall -q picom
+picom  --experimental-backend &
+nm-applet &
+pgrep -x sxhkd > /dev/null || sxhkd &
+wmname LG3D &
+feh --bg-scale /home/camilo/Wallpapers/bg_13.jpg &
+~/.config/polybar/launch.sh --transparent &
+killall mate-notification-daemon
+dunst &
